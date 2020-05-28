@@ -1,0 +1,29 @@
+{
+  "name": "@rdm/prettier-config",
+  "version": "1.0.0",
+  "description": "A customized Prettier configuration.",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdmurphy/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "configuration",
+    "formatting"
+  ],
+  "author": "Ryan Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdmurphy/prettier-config/issues"
+  },
+  "homepage": "https://github.com/rdmurphy/prettier-config#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "np": "^6.2.3"
+  }
+}
