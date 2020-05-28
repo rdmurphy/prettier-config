@@ -1,12 +1,14 @@
 {
   "name": "@rdm/prettier-config",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A customized Prettier configuration.",
   "main": "index.json",
   "files": [
     "index.json"
   ],
-  "scripts": {},
+  "scripts": {
+    "release": "np"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdmurphy/prettier-config.git"
@@ -25,5 +27,12 @@
   "dependencies": {},
   "devDependencies": {
     "np": "^6.2.3"
+  },
+  "np": {
+    "tests": false,
+    "yarn": false
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
