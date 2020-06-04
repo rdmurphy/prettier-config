@@ -1,6 +1,6 @@
 {
   "name": "@rdm/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customized Prettier configuration.",
   "main": "index.json",
   "files": [
