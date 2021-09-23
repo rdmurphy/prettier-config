@@ -24,9 +24,8 @@
     "url": "https://github.com/rdmurphy/prettier-config/issues"
   },
   "homepage": "https://github.com/rdmurphy/prettier-config#readme",
-  "dependencies": {},
   "devDependencies": {
-    "np": "^6.2.3"
+    "np": "^7.5.0"
   },
   "np": {
     "tests": false,
