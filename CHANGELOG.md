@@ -7,12 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2022-04-22
+
+### Added
+
+- Added `singleAttributePerLine` option.
+
+### Changed
+
+- Removed the `prettier-plugin-svelte` options because they throw warnings if you don't have the plugin installed.
+
 ## [2.0.0] - 2021-09-23
 
 ### Added
 
 - Added `bracketSameLine`, `embeddedLanguageFormatting` and `vueIndentScriptAndStyle`.
 - Added [`prettier-plugin-svelte`](https://github.com/sveltejs/prettier-plugin-svelte) specific options.
+
 ### Removed
 
 - Removed `jsxBracketSameLine` due to deprecation (replaced by `bracketSameLine`).
